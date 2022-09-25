@@ -1,0 +1,355 @@
+*{padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+header{
+    height: 100vh;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0px;
+}
+.nav-area li a{
+    color: rgb(150, 145, 145);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+.nav-area li a:hover{
+    color: rgb(14, 190, 161);
+    transition: .4s;
+}
+.logo img{
+    width: auto;
+    float: left;
+    height: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 17px;
+}
+.parent{
+    color: rgb(14, 190, 161);
+    font-size: 33px;
+    padding-left: 0px;
+    letter-spacing: 0px;
+    padding-top: 17px;
+}
+.main{
+    text-align: center;
+    color: rgb(14, 190, 161);
+    padding-top: 0%;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 37px;
+    letter-spacing: 1px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.logo{
+    color: rgb(14, 190, 161);
+    font-size: 33px;
+    line-height: 1px;
+    cursor: pointer;
+    padding-left: 17%;
+    padding-top: 0rem;
+    font-style: normal;
+}
+span{
+    color: rgb(150, 145, 145);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+nav ul li a{
+    color: rgb(150, 145, 145);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(14, 190, 161);
+    transition: .4s;
+}
+img{
+    padding-top: 0px;
+    padding-left: 50%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 7px;
+    display: inline-block;
+    padding-left: 90px;
+    padding-bottom: 7%;
+    padding-top: 3%;
+    color: gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    background: rgb(51, 202, 169);
+    width: 300px;
+    height: 370px;
+    margin: 13px;
+    margin-bottom: 3%;
+    border-radius: 13px;
+}
+.card2{
+    background: rgb(75, 126, 202);
+    width: 300px;
+    height: 370px;
+    margin: 13px;
+    margin-bottom: 3%;
+    border-radius: 13px;
+}
+.card3{
+    background: rgb(16, 16, 44);
+    width: 300px;
+    height: 370px;
+    margin: 13px;
+    margin-bottom: 3%;
+    border-radius: 13px;
+}
+.card-image1{
+    height: 33px;
+}
+.card-image2{
+    height: 33px;
+}
+.card-image3{
+    height: 33px;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 1px;
+}
+.card1 p{
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    padding: 39px;
+    display: block;
+}
+.card2 p{
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    padding: 39px;
+    display: block;
+}
+.card3 p{
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    padding: 39px;
+    display: block;
+}
+.card1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.card2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.card3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.image1{
+    margin-right: 210px;
+}
+.image2{
+    margin-right: 210px;
+}
+.image3{
+    margin-right: 210px;
+}
+.party p{
+    color: rgb(51, 202, 169);
+    font-size: 29px;
+    margin-left: 8%;
+}
+.box{
+    background: rgb(200, 250, 246);
+}
+.p1 p{
+    color: rgb(14, 190, 161);
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin: 0%;
+    padding: 7%;
+}
+.p2 p{
+    font-size: 15px;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.img4{
+    padding-right: 90%;
+    background-size: 90%;
+}
+.flexbox{
+   display: flex;
+   justify-content: right; 
+   flex-wrap: wrap;
+   margin: 11px;
+   align-content: space-around;
+
+}
+.box1{    background: white;
+   height: 290px;
+   width: 290px;
+   margin-left: 200px;
+   margin-top: 51px;
+}
+.box2{
+    background: white;
+    height: 290px;
+   width: 290px;
+   margin-left: 200px;
+   margin-top: 21px;
+}
+.box3{
+    background: white;
+    height: 290px;
+   width: 290px;
+   margin-top: 213px;
+   margin-right: 222px;
+}
+.box4{
+    background: white;
+    height: 290px;
+    width: 290px;
+    margin-top: 250px;
+}
+.flexbox p{
+    font-size: 12px;
+    padding: 39px;
+}
+.flexbox h1{
+    color: rgb(51, 202, 169);
+}
+.box-image1{
+    margin-top: 25px;
+}
+.box-image2{
+    margin-top: 25px;
+    margin-right: 44px;
+}
+.box-image3{
+    margin-top: 25px;
+}
+.box-image4{
+    margin-top: 25px;
+}
+.babs h1{
+    color: rgb(51, 202, 169);
+    margin-top: 90px;
+}
+.babs p{
+    font-size: 15px;
+    margin-left: 345px;
+}
+.tra{
+    display: flex;
+    margin: 0%;
+}
+.tra .tof1{
+    margin: 13px;
+}
+.tra .tof2{
+    margin: 13px;
+}
+.tra .tof3{
+    margin: 13px
+}
+.tra h2{
+    color: rgb(150, 145, 145);
+    margin-left: 173px;
+    margin-top: 19px;
+    font-size: 19px;
+}
+.hero{
+    display: flex;
+    margin-top: 27px;
+}
+.hero .hero1{
+    margin: 13px;
+}
+.hero .hero2{
+    margin: 13px;
+}
+.hero .hero3{
+    margin: 13px;
+}
+.hero h2{
+    color: rgb(150, 145, 145);
+    margin-left: 173px;
+    margin-top: 19px;
+    font-size: 19px;
+}
+.map{
+    display: flex;
+    margin-top: 27px;
+}
+.map .map1{
+    margin: 13px;
+}
+.map .map2{
+    margin: 13px;
+}
+.map h2{
+    color: rgb(150, 145, 145);
+    margin-left: 173px;
+    margin-top: 19px;
+    font-size: 19px;
+}
+.txt{
+    display: flex;
+}
+.txt h1{
+    color: rgb(47, 43, 43);
+    margin-left: 500px;
+    margin-top: 100px;
+    letter-spacing: 1px;
+}
+.open{
+    margin-left: 470px;
+    margin-bottom: 50px;
+}
+.open p{
+    font-size: 15px;
+    background-color: blue;
+    
+}
+.fin1 p{
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+}
